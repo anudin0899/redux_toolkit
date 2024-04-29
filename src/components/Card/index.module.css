@@ -1,0 +1,52 @@
+.card_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 220px;
+  min-height: 300px;
+  box-shadow: 10px 5px 5px rgba(77, 76, 76, 0.2392156863);
+}
+.card_box .prod_image {
+  width: 100%;
+  height: 180px;
+}
+.card_box .prod_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.card_box .card_btn {
+  width: 100%;
+  background: #111;
+  padding: 10px;
+  border-top: 2px solid #d18080;
+}
+.card_box .card_btn button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card_box .prod_detail {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+}
+.card_box .prod_detail .afterCart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 5px;
+}
+.card_box .prod_detail .afterCart .counterBtn {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #d18080;
+  color: #fff;
+}/*# sourceMappingURL=index.module.css.map */

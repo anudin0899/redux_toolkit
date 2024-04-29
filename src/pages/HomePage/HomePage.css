@@ -1,0 +1,20 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page .sectionDiv {
+  height: 100%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 40px;
+}
+.page .nextBtn {
+  background: #e50813;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}/*# sourceMappingURL=HomePage.css.map */
